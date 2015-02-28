@@ -1,0 +1,22 @@
+{
+  "name": "get-unit",
+  "version": "0.0.0",
+  "description": "Easy way to check what the unit of a passed quantity is",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "arthurvr/get-unit",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
