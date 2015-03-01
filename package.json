@@ -2,7 +2,13 @@
   "name": "get-unit",
   "version": "1.0.0",
   "description": "Easy way to check what the unit of a passed quantity is",
-  "keywords": [],
+  "keywords": [
+    "amount",
+    "unit",
+    "quantity",
+    "parser",
+    "measurements"
+  ],
   "license": "MIT",
   "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
   "files": [
