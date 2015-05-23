@@ -1,6 +1,6 @@
 # get-unit [![Build Status](https://travis-ci.org/arthurvr/get-unit.svg?branch=master)](https://travis-ci.org/arthurvr/get-unit)
 
-> Easy way to check what the unit of a givin quantity is
+> Easy way to check what the unit of a given quantity is
 
 ## Installation
 

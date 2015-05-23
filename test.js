@@ -1,6 +1,5 @@
 'use strict';
-
-var getUnit = require('../');
+var getUnit = require('./');
 var assert = require('assert');
 
 it('Should be a function', function () {

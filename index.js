@@ -1,5 +1,4 @@
 'use strict';
-
 module.exports = function (s) {
 	if (typeof s !== 'string') {
 		throw new Error('expected a string');

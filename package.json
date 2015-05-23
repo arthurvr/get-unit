@@ -16,7 +16,7 @@
   ],
   "repository": "arthurvr/get-unit",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha test"
   },
   "devDependencies": {
     "mocha": "*"
