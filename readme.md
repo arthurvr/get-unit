@@ -31,4 +31,4 @@ getUnit('4');
 
 ## License
 
-MIT © Arthur Verschaeve
+MIT © [Arthur Verschaeve](http://arthurverschaeve.be)
