@@ -26,7 +26,7 @@ getUnit('.4V');
 //=> 'V'
 
 getUnit('4');
-//=> ''
+//=> null
 ```
 
 ## License

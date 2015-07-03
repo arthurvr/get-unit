@@ -38,8 +38,9 @@ it('Should trim whitespace', function () {
 	});
 });
 
-it('Should return an empty string when there is no unit', function () {
-	assert.strictEqual(getUnit('5'), '');
-	assert.strictEqual(getUnit('555'), '');
-	assert.strictEqual(getUnit('1.003'), '');
+it('Should return null when there is no unit', function () {
+	assert.strictEqual(getUnit('5'), null);
+	assert.strictEqual(getUnit('555'), null);
+	assert.strictEqual(getUnit('1.003'), null);
+	assert.strictEqual(getUnit('1,003'), null);
 });
