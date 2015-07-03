@@ -1,6 +1,6 @@
 {
   "name": "get-unit",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Naive way to check what the unit of a passed quantity is",
   "keywords": [
     "amount",
