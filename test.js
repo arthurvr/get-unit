@@ -44,3 +44,9 @@ it('Should return null when there is no unit', function () {
 	assert.strictEqual(getUnit('1.003'), null);
 	assert.strictEqual(getUnit('1,003'), null);
 });
+
+it('Should return a trimmed unit with a space between value and unit', function () {
+	assert.equal(getUnit('5,5 m'), 'm');
+	assert.equal(getUnit(',4 mm'), 'mm');
+	assert.equal(getUnit('3,3000009999009 h'), 'h');
+});

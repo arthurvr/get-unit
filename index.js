@@ -4,7 +4,7 @@ module.exports = function (s) {
 		throw new Error('expected a string');
 	}
 
-	var unit = s.trim().replace(/([0-9]|\.|\,)+([\S]+)?/, '$2');
+	var unit = s.replace(/([0-9]|\.|\,)+([\S]+)?/, '$2').trim();
 
 	if (!unit) {
 		return null;

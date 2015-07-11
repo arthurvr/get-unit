@@ -13,10 +13,10 @@ $ npm install get-unit --save
 ```js
 var getUnit = require('get-unit');
 
-getUnit('5mm');
+getUnit('5 mm');
 //=> 'mm'
 
-getUnit('1.004A');
+getUnit('1.004 A');
 //=> 'A'
 
 getUnit('1,4km');
