@@ -2,11 +2,13 @@
 
 > Naive way to check what the unit of a given quantity is
 
+
 ## Installation
 
 ```
 $ npm install get-unit --save
 ```
+
 
 ## Usage
 
@@ -28,6 +30,7 @@ getUnit('.4V');
 getUnit('4');
 //=> null
 ```
+
 
 ## License
 
