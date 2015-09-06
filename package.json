@@ -16,10 +16,10 @@
   ],
   "repository": "arthurvr/get-unit",
   "scripts": {
-    "test": "xo && mocha test"
+    "test": "xo && node test.js"
   },
   "devDependencies": {
-    "mocha": "*",
+    "ava": "*",
     "xo": "*"
   },
   "engines": {
@@ -27,8 +27,7 @@
   },
   "xo": {
     "envs": [
-      "node",
-      "mocha"
+      "node"
     ]
   }
 }
