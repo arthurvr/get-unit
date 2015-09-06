@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function (s) {
 	if (typeof s !== 'string') {
-		throw new Error('expected a string');
+		throw new TypeError('expected a string');
 	}
 
 	var unit = s.replace(/([0-9]|\.|\,)+([\S]+)?/, '$2').trim();

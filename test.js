@@ -28,7 +28,7 @@ test('Should throw when passing something that isn\'t a string', function (t) {
 	[4, undefined, true, null, function () {}].forEach(function (val) {
 		t.throws(function () {
 			getUnit(val);
-		});
+		}, TypeError);
 	});
 });
 
