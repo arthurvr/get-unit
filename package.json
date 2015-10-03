@@ -16,7 +16,7 @@
   ],
   "repository": "arthurvr/get-unit",
   "scripts": {
-    "test": "xo && node test.js"
+    "test": "xo && ava"
   },
   "devDependencies": {
     "ava": "*",
