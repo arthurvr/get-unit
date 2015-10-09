@@ -13,7 +13,7 @@ $ npm install get-unit --save
 ## Usage
 
 ```js
-var getUnit = require('get-unit');
+const getUnit = require('get-unit');
 
 getUnit('5 mm');
 //=> 'mm'
